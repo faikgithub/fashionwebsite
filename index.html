@@ -7,13 +7,39 @@
     <link rel="stylesheet" href="main.css">
   </head>
 
-  <body class="first">
-      <header>
-        <div class="container">
-             <a href="main">WELCOME TO MY PORTFOLIO</a>
-             <a href="#">TEST1</a>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="menu.png" class="menu-img">
+        <img src="logo.png" class="logo">
+        <ul>
+          <li><a href="">New Drops</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Sell Product</a></li>
+          <li><a href="discount/index.html">Discount</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+      </nav>
+         <div class="lamp-container">
+           <img src="lamp.png" class="lamp">
+           <img src="light.png" class="light" id="light">
+         </div>
+         <div class="text-container">
+            <h1>BLA BLA BLA!</h1>
+            <p>blablalbla blablalbla blablalbla blablalbla blablalbla bla bla bla bla bla bla aaaaabaaaaaaaaaa ba aaaaaba aaab </p>
+            <a href="">Check All</a>
+            <div class="control">
 
-        </div>
-      </header>
+            </div>
+         </div>
+    </div>
+    <script>
+          var btn = document.getElementById("btn");
+          var light = document.getElementById("light");
+          function toggleBtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+          }
+    </script>
   </body>
 </html>
