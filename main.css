@@ -339,7 +339,7 @@ input {
 #s3:checked~.cards #slide3,
 #s4:checked~.cards #slide4,
 #s5:checked~.cards #slide5 {
-    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 50%);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 50%);
     transform: translate3d(0, 0, 0);
     --current-color1: #fad00c;
     --current-color2: #ECEAED;
